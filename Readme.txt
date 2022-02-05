@@ -1,6 +1,6 @@
 1. In the zipped folder "IDL code and sample data for computing accuracy metrics", there are two files:
-   (1) an IDL code "optimal_accuracy_metrics.pro" which can compute the four metrics, AD, RMSE, edge, LBP for any fused images. Input the data according to the pop-up window when running the code. The result will be saved as a csv file in the folder of fused image and named as fused image name+_accuracy.csv (e.g.,fused_fine_image_FSDAF.tif_accuracy.csv). The first n rows are accuracies of n bands, and the last raw is the average accuracies of multiple bands.
-   Please note: the code used some functions from ENVI, so ENVI should be open when compiling the code! 
+   (1) an IDL code "optimal_accuracy_metrics.pro" which can compute the four metrics, AD, RMSE, edge, LBP for any fused images. Input the data according to the pop-up window when running the code. The result will be saved as a csv file in the folder of fused image and named as fused image name+_accuracy.csv (e.g.,fused_fine_image_FSDAF.tif_accuracy.csv). The first n rows are accuracies of n bands, and the last row is the average accuracies of multiple bands.
+   Please note: the code used some functions from the classic ENVI, so the classic ENVI software should be open when compiling the code! 
    (2) sample data: a 3-band reference image (green, red, nir) on 25 Nov 2001 in CIA site; a fused image by FSDAF
 
 2. In the zipped folder "R code and sample data for drawing Taylor like diagram", there are two files:
