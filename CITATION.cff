@@ -1,0 +1,35 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Fusion-accuracy-assessment
+message: Please cite this software using these metadata.
+type: software
+authors:
+  - given-names: Xiaolin
+    family-names: Zhu
+  - given-names: Wenfeng
+    family-names: Zhan
+  - given-names: Junxiong
+    family-names: Zhou
+  - given-names: Xuehong
+    family-names: Chen
+  - given-names: Zicong
+    family-names: Liang
+  - given-names: Shuai
+    family-names: Xu
+  - given-names: Jin
+    family-names: Chen
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.6387281
+    description: >-
+      When requested, you can cite this code through
+      the doi published by Zenodo.
+keywords:
+  - Spatiotemporal fusion
+  - Accuracy assessment
+  - Inter-comparison
+  - Taylor diagram
+  - Model performance
+license: CC-BY-4.0
